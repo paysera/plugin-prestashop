@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "2d1a030440240d93240968de22875111",
+    "packages": [
+        {
+            "name": "webtopay/libwebtopay",
+            "version": "dev-default",
+            "source": {
+                "type": "hg",
+                "url": "https://bitbucket.org/webtopay/libwebtopay",
+                "reference": "tip"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/webtopay/libwebtopay/get/tip.zip",
+                "reference": "tip",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "EVP International",
+                    "homepage": "http://www.webtopay.com/"
+                }
+            ],
+            "description": "PHP Library for WebToPay provided services",
+            "time": "2013-05-15 07:33:15"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "webtopay/libwebtopay": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

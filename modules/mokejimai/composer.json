@@ -1,0 +1,5 @@
+{
+    "require": {
+        "webtopay/libwebtopay": "dev-default"
+    }
+}

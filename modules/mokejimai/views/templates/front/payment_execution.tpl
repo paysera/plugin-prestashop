@@ -85,7 +85,7 @@
             </a>
         </td>
         <td>
-            {l s='You have chosen to pay by mokejimai.lt.' mod='mokejimai'}<br/>
+            {l s='You have chosen to pay by Paysera.com/Mokejimai.lt.' mod='mokejimai'}<br/>
             {l s='Here is a short summary of your order:' mod='mokejimai'}
         </td>
     </tr>

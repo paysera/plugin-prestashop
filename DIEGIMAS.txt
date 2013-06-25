@@ -1,0 +1,13 @@
+# -- DIEGIMAS --
+
+1. Nukopijuokite failus i pagrindine prestashop direktorija;z
+2. Administracijoje eikite i Modules->Payment spauskite "Click to see the list of payment modules." mygtuka;
+3. Mokejimai modulyje paspauskite "Install" mygtuka, po siekmingo idiegimo spauskite "Configure" mygtuka ir uzpildykite detales;
+
+#-- PAKEITIMAI --
+
+2013-05-14 Atnaujinimas. Pasalintas warning paspaudus konfiguracija modulio
+2013-05-14 Atnaujinimas. Pakeistos tikrinimo funkcijos pagal naujausia specifikacija
+2013-05-14 Atnaujinimas. Pakeista pasenusi TVS funckija susijusi su valiuta
+2013-03-13 Pataisymas. Sutaisyta klaida su bloga valiuta
+2012-11-21 Pataisymas. Sutaisyta klaida su blogu uzsakymo id

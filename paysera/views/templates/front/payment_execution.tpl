@@ -142,7 +142,7 @@
     </table>
 {/if}
 
-<form action="{$link->getModuleLink('paysera', 'redirect')|escape:'quotes'}" method="post" id="paysera-form">
+<form action="{$link->getModuleLink('paysera', 'redirect', [], true)|escape:'html'}" method="post" id="paysera-form">
     {if $displayPayments == 1}
         <div id="payment-content">
             <div class="payment-methods-wrapper">
@@ -171,8 +171,8 @@
         </div>
     {/if}
     <p class="cart_navigation">
-        <a href="{$base_dir_ssl|escape:'urlpathinfo'}index.php?controller=order&step=3"
-           class="button_large">{l s='Other payment methods' mod='paysera'}</a>
+	<a href="{$link->getPageLink('order', true, NULL, "step=3")|escape:'html'}" class="button_large">
+        {l s='Other payment methods' mod='paysera'}</a>
         <input type="submit" name="submit" value="{l s='I confirm my order' mod='paysera'}" class="exclusive_large"/>
     </p>
 </form>

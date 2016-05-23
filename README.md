@@ -6,7 +6,7 @@ Paysera.com payment gateway plugin for PrestaShop
 Requirements
 ------------
 
-- PrestaShop 1.5.x
+- PrestaShop 1.6.x
 
 Installation
 ------------
@@ -17,6 +17,7 @@ Installation
 
 
 OR
+
 
 1. Download this repository as zip and Go to "Modules" and click "Add new module"
 2. Browse for module and upload.
